@@ -1,0 +1,26 @@
+html{
+    background-color: #1DA1F2;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+form{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+form input{
+    width: 100%;
+    border-radius: 25px;
+    height: 20%;
+    outline: none;
+    border: none;
+}
+form input::placeholder{
+    padding: 2px;
+}

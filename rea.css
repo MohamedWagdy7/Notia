@@ -1,0 +1,15 @@
+html{
+    background-color: #1DA1F2;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+body div{
+    background-color: white;
+    border-radius: 10px;
+    width: 20%;
+    margin: 1%;
+    text-align: center;
+}
